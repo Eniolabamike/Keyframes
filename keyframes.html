@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        width: 200px;
+        height: 200px;
+        background-color: #000000;
+        position: relative;
+        animation-name: misty;
+        animation-delay: 5s;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        /*animation-direction:alternate*/
+    }
+    @keyframes misty{
+        /*0%{
+            top:0px;
+            transform: rotate(45deg);
+            background-color: #584f4f;
+        }*/
+       
+       
+        0%{
+            top: 0px;
+            transform: rotate(135deg);
+            background-color: #4f8bda;
+        }
+        25%{
+            top:100px;
+            transform: rotate(45deg);
+            background-color: #584f4f;
+        }
+    }
+</style>
+<body>
+     <!--<div style="width: 200px; height: 200px;background: #ff0000;position: absolute;animation: misty 10s infinite;"></div>-->
+    <div></div>
+</body>
+</html>
